@@ -141,6 +141,7 @@ C:\Users\Simeon\Desktop\DebtorsInventoryTrackingApp\WebApi\obj\Debug\net9.0\WebA
 C:\Users\Simeon\Desktop\DebtorsInventoryTrackingApp\WebApi\obj\Debug\net9.0\WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Simeon\Desktop\DebtorsInventoryTrackingApp\WebApi\obj\Debug\net9.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Simeon\Desktop\DebtorsInventoryTrackingApp\WebApi\obj\Debug\net9.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Simeon\Desktop\DebtorsInventoryTrackingApp\WebApi\obj\Debug\net9.0\WebApi.sourcelink.json
 C:\Users\Simeon\Desktop\DebtorsInventoryTrackingApp\WebApi\obj\Debug\net9.0\scopedcss\bundle\WebApi.styles.css
 C:\Users\Simeon\Desktop\DebtorsInventoryTrackingApp\WebApi\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Simeon\Desktop\DebtorsInventoryTrackingApp\WebApi\obj\Debug\net9.0\staticwebassets.development.json
