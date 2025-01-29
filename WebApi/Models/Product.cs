@@ -11,16 +11,25 @@ namespace WebApi.Models
             ArgumentOutOfRangeException.ThrowIfNegative(stockQuantity);
 
             Id = GenerateUniqueId();
-            Name = name;
-            Description = description;
-            UnitPrice = unitPrice;
-            StockQuantity = stockQuantity;
+            Update(name, description, unitPrice, stockQuantity);
             CreatedAt = DateTime.UtcNow;
         }
 
         private string GenerateUniqueId()
         {
             return $"{Category.Name}_{Name}".Replace(" ", "_").ToLower();
+        }
+
+        public void Update(string name, string? description, decimal unitPrice, int stockQuantity)
+        {
+            ArgumentException.ThrowIfNullOrWhiteSpace(name);
+            ArgumentOutOfRangeException.ThrowIfNegativeOrZero(unitPrice);
+            ArgumentOutOfRangeException.ThrowIfNegative(stockQuantity);
+
+            Name = name;
+            Description = description;
+            UnitPrice = unitPrice;
+            StockQuantity = stockQuantity;
         }
 
 

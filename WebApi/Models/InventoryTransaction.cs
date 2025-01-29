@@ -19,7 +19,7 @@ namespace WebApi.Models
         public DateTime TransactionDate { get; private set; }
         public string? Notes { get; private set; }
 
-        public required Product Product { get; set; } = default!;
+        public Product Product { get; set; } = default!;
 
 #pragma warning disable CS8618
         private InventoryTransaction() { }
